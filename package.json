@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "npm run dev:h5",
-    "build": "npm run build:h5",
-    "build-test": "npm run build:h5-test",
+    "build:prod": "npm run build:h5",
+    "build:test": "npm run build:h5-test",
     "build:app-plus": "cross-env NODE_ENV=production UNI_PLATFORM=app-plus vue-cli-service uni-build",
     "build:custom": "cross-env NODE_ENV=production uniapp-cli custom",
     "build:h5": "cross-env NODE_ENV=production UNI_PLATFORM=h5 VUE_APP_ENV=production vue-cli-service uni-build",
